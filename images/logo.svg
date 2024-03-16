@@ -1,9 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="209" height="54" viewBox="0 0 209 54">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="100" viewBox="0 0 209 54">
   <defs>
     <style>
       .cls-1 {
-        fill: #2584ff;
-        stroke: #2584ff;
+        fill: yellow;
+        stroke: yellow;
+        <!-- #2584ff -->
       }
 
       .cls-1, .cls-2 {
@@ -14,9 +15,10 @@
       }
 
       .cls-2 {
-        fill: #ff3400;
-        stroke: #ff3400;
+        fill: blue;
+        stroke: blue;
         mix-blend-mode: lighten;
+        <!-- #ff3400 -->
       }
 
       .cls-3 {
@@ -28,6 +30,7 @@
     </style>
   </defs>
   <path id="Polygon_1_copy_2" data-name="Polygon 1 copy 2" class="cls-1" d="M43.851,29.7L24.244,39.2,32.037,14.02Z"/>
-  <path id="Polygon_1_copy_2-2" data-name="Polygon 1 copy 2" class="cls-2" d="M37.033,29.7L56.64,39.2,48.847,14.02Z"/>
-  <text id="Moshify" class="cls-3" transform="translate(71.466 35.437) scale(0.923)">Moshify</text>
+  <!-- <path id="Polygon_1_copy_2-2" data-name="Polygon 1 copy 2" class="cls-2" d="M37.033,29.7L56.64,39.2,48.847,14.02Z"/> -->
+  <text id="au-host" class="cls-3" transform="translate(71.466 35.437) scale(0.923)">Au-Host</text>
 </svg>
+
