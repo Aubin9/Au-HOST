@@ -280,6 +280,7 @@ a {
   border: 0;
   flex-grow: 1; /*Growth to take up all the available space*/
   padding: 1.5rem 2rem;
+  width: 0;
 }
 
 .input-group .btn {
@@ -430,7 +431,7 @@ a {
 }
 
 .quote__author {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 500;
   font-style: normal;
   margin-bottom: 0;
@@ -439,7 +440,7 @@ a {
 .quote__organization {
   color: var(--color-headings);
   opacity: 0.4;
-  font-size: 2rem;
+  font-size: 1.3rem;
   font-style: normal;
 }
 
@@ -482,6 +483,11 @@ a {
   padding: 3rem;
 }
 
+.testimonial .quote {
+  margin: 2rem 0;
+  font-size: 110%;
+}
+
 .testimonial__image {
   position: relative;
   margin: 0 3rem;
@@ -508,8 +514,9 @@ a {
   }
 
   .testimonial .quote {
-    margin-left: 6rem;
-    margin-right: 0;
+    margin: 5rem 0 0 6rem;
+    font-size: 120%;
+    line-height: 1.5;
   }
 }
 
@@ -592,7 +599,7 @@ a {
 
 /* Blocks */
 .block {
-  --padding-vertical: 6rem;
+  --padding-vertical: 5rem;
   padding: var(--padding-vertical) 2rem;
 }
 
